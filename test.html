@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Viewer</title>
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0; /* Remove all default body margins */
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling for a clean view */
+        }
+        embed {
+            width: 100vw; /* Full viewport width */
+            height: 100vh; /* Full viewport height */
+        }
+    </style>
 </head>
 <body>
     <embed 
         src="https://burkedgavin.github.io/portfolio/Portfolio.pdf" 
-        type="application/pdf" 
-        width="100%" 
-        height="100%">
+        type="application/pdf">
 </body>
 </html>
